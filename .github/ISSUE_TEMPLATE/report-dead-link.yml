@@ -1,0 +1,20 @@
+name: Report a dead link
+description: Report a broken or misleading link in the list.
+title: "Dead link: "
+labels: ["dead-link"]
+body:
+  - type: input
+    id: url
+    attributes:
+      label: Broken URL
+      placeholder: "https://..."
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: Describe what happens when opening the link.
+      placeholder: "404, redirected to unrelated content, archived, etc."
+    validations:
+      required: true
