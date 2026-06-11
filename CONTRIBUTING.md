@@ -23,10 +23,10 @@ This list is intentionally focused. A good entry should be directly useful for u
 
 ## Entry Format
 
-Use this format for most entries:
+Use this table-row format for most entries:
 
 ```md
-- [Name](https://example.com) - One sentence explaining why it matters for LLM Wiki. `tag` `tag`
+| [Name](https://example.com) | One sentence explaining why it matters for LLM Wiki. | `tag` `tag` |
 ```
 
 Keep descriptions short, factual, and non-promotional. Prefer explaining the role of the resource over repeating its tagline.
